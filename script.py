@@ -1,6 +1,8 @@
 # Create calculate_insurance_cost() function below: 
 def calculate_insurance_cost():
-    
+    estimated_cost = 1000
+    print("The estimated insurance cost for this person is " + str(estimated_cost) + " dollards.")
+    return estimated_cost
 
 # Initial variables for Maria 
 age = 28
