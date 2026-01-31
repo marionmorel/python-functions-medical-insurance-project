@@ -32,3 +32,9 @@ omar_insurance_cost = calculate_insurance_cost(35, 1, 22.2, 0, 1, "Omar")
 # print("The estimated insurance cost for Omar is " + str(insurance_cost) + " dollars.")
 
 my_insurance_cost = calculate_insurance_cost(28, 0, 26, 0, 1, "Marion")
+
+def cost_difference(cost1, cost2):
+    difference = cost1 - cost2
+    print("The difference in insurance cost is " + str(difference) + " dollars.")
+
+cost_difference(maria_insurance_cost, omar_insurance_cost)
