@@ -30,3 +30,5 @@ maria_insurance_cost = calculate_insurance_cost(28, 0, 26.2, 3, 0, "Maria")
 omar_insurance_cost = calculate_insurance_cost(35, 1, 22.2, 0, 1, "Omar")
 
 # print("The estimated insurance cost for Omar is " + str(insurance_cost) + " dollars.")
+
+my_insurance_cost = calculate_insurance_cost(28, 0, 26, 0, 1, "Marion")
