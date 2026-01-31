@@ -14,7 +14,8 @@ num_of_children = 3
 smoker = 0  
 
 # Estimate Maria's insurance cost
-insurance_cost = 250*age - 128*sex + 370*bmi + 425*num_of_children + 24000*smoker - 12500
+# insurance_cost = 250*age - 128*sex + 370*bmi + 425*num_of_children + 24000*smoker - 12500
+maria_insurance_cost = calculate_insurance_cost(28, 0, 26.2, 3, 0)
 
 print("The estimated insurance cost for Maria is " + str(insurance_cost) + " dollars.")
 
